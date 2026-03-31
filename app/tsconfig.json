@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2020",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["index.ts"]
+}

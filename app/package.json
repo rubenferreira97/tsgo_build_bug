@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "scripts": {
+    "reproduce": "node reproduce.js",
+    "build:tsgo": "tsgo --build tsconfig.json"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "latest"
+  },
+  "dependencies": {
+    "my-dep": "file:../dependency-v1"
+  }
+}
